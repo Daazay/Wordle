@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TryView">
+        <attr name="firstLetter" format="string"/>
+        <attr name="firstLetterStatus" format="enum">
+            <enum name="wrong" value="-1"/>
+            <enum name="inPlace" value="0"/>
+            <enum name="outOfPlace" value="1"/>
+        </attr>
+        <attr name="secondLetter" format="string"/>
+        <attr name="secondLetterStatus" format="enum">
+            <enum name="wrong" value="-1"/>
+            <enum name="inPlace" value="0"/>
+            <enum name="outOfPlace" value="1"/>
+        </attr>
+        <attr name="thirdLetter" format="string"/>
+        <attr name="thirdLetterStatus" format="enum">
+            <enum name="wrong" value="-1"/>
+            <enum name="inPlace" value="0"/>
+            <enum name="outOfPlace" value="1"/>
+        </attr>
+        <attr name="fourthLetter" format="string"/>
+        <attr name="fourthLetterStatus" format="enum">
+            <enum name="wrong" value="-1"/>
+            <enum name="inPlace" value="0"/>
+            <enum name="outOfPlace" value="1"/>
+        </attr>
+        <attr name="fifthLetter" format="string"/>
+        <attr name="fifthLetterStatus" format="enum">
+            <enum name="wrong" value="-1"/>
+            <enum name="inPlace" value="0"/>
+            <enum name="outOfPlace" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
